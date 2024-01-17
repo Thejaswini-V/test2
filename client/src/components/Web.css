@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Set a background color for the body */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .box input,
+  .box select,
+  .box date {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .box input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .box input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style radio and checkbox inputs */
+  .box input[type="radio"],
+  .box input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Style labels for radio and checkbox inputs */
+  .box label {
+    margin-right: 15px;
+  }
+  
+  /* Add some spacing between radio and checkbox groups */
+  .box .radio-group,
+  .box .checkbox-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Style the date input */
+  .box input[type="date"] {
+    width: calc(100% - 22px); /* Adjust width to account for date picker button */
+  }
+  
+  /* Style the form header */
+  .box h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Center the submit button */
+  .box .submit-container {
+    text-align: center;
+  }
+  
+  /* Optional: Style for error messages */
+  .box .error-message {
+    color: #f00;
+    margin-top: 5px;
+  }
+  
